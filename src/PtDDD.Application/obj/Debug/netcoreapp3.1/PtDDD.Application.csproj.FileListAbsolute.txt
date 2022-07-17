@@ -1,0 +1,10 @@
+D:\Respository\PtDDD\src\PtDDD.Application\bin\Debug\netcoreapp3.1\PtDDD.Application.deps.json
+D:\Respository\PtDDD\src\PtDDD.Application\bin\Debug\netcoreapp3.1\PtDDD.Application.dll
+D:\Respository\PtDDD\src\PtDDD.Application\bin\Debug\netcoreapp3.1\PtDDD.Application.pdb
+D:\Respository\PtDDD\src\PtDDD.Application\obj\Debug\netcoreapp3.1\PtDDD.Application.csproj.AssemblyReference.cache
+D:\Respository\PtDDD\src\PtDDD.Application\obj\Debug\netcoreapp3.1\PtDDD.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Respository\PtDDD\src\PtDDD.Application\obj\Debug\netcoreapp3.1\PtDDD.Application.AssemblyInfoInputs.cache
+D:\Respository\PtDDD\src\PtDDD.Application\obj\Debug\netcoreapp3.1\PtDDD.Application.AssemblyInfo.cs
+D:\Respository\PtDDD\src\PtDDD.Application\obj\Debug\netcoreapp3.1\PtDDD.Application.csproj.CoreCompileInputs.cache
+D:\Respository\PtDDD\src\PtDDD.Application\obj\Debug\netcoreapp3.1\PtDDD.Application.dll
+D:\Respository\PtDDD\src\PtDDD.Application\obj\Debug\netcoreapp3.1\PtDDD.Application.pdb

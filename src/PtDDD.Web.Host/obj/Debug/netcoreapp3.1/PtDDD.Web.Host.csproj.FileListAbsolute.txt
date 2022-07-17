@@ -1,0 +1,6 @@
+D:\Respository\PtDDD\src\PtDDD.Web.Host\obj\Debug\netcoreapp3.1\PtDDD.Web.Host.csproj.AssemblyReference.cache
+D:\Respository\PtDDD\src\PtDDD.Web.Host\obj\Debug\netcoreapp3.1\PtDDD.Web.Host.GeneratedMSBuildEditorConfig.editorconfig
+D:\Respository\PtDDD\src\PtDDD.Web.Host\obj\Debug\netcoreapp3.1\PtDDD.Web.Host.AssemblyInfoInputs.cache
+D:\Respository\PtDDD\src\PtDDD.Web.Host\obj\Debug\netcoreapp3.1\PtDDD.Web.Host.AssemblyInfo.cs
+D:\Respository\PtDDD\src\PtDDD.Web.Host\obj\Debug\netcoreapp3.1\PtDDD.Web.Host.csproj.CoreCompileInputs.cache
+D:\Respository\PtDDD\src\PtDDD.Web.Host\obj\Debug\netcoreapp3.1\PtDDD.Web.Host.MvcApplicationPartsAssemblyInfo.cache

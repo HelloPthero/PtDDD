@@ -1,0 +1,10 @@
+D:\Respository\PtDDD\src\PtDDD.EntityFrameworkCore\bin\Debug\netcoreapp3.1\PtDDD.EntityFrameworkCore.deps.json
+D:\Respository\PtDDD\src\PtDDD.EntityFrameworkCore\bin\Debug\netcoreapp3.1\PtDDD.EntityFrameworkCore.dll
+D:\Respository\PtDDD\src\PtDDD.EntityFrameworkCore\bin\Debug\netcoreapp3.1\PtDDD.EntityFrameworkCore.pdb
+D:\Respository\PtDDD\src\PtDDD.EntityFrameworkCore\obj\Debug\netcoreapp3.1\PtDDD.EntityFrameworkCore.csproj.AssemblyReference.cache
+D:\Respository\PtDDD\src\PtDDD.EntityFrameworkCore\obj\Debug\netcoreapp3.1\PtDDD.EntityFrameworkCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\Respository\PtDDD\src\PtDDD.EntityFrameworkCore\obj\Debug\netcoreapp3.1\PtDDD.EntityFrameworkCore.AssemblyInfoInputs.cache
+D:\Respository\PtDDD\src\PtDDD.EntityFrameworkCore\obj\Debug\netcoreapp3.1\PtDDD.EntityFrameworkCore.AssemblyInfo.cs
+D:\Respository\PtDDD\src\PtDDD.EntityFrameworkCore\obj\Debug\netcoreapp3.1\PtDDD.EntityFrameworkCore.csproj.CoreCompileInputs.cache
+D:\Respository\PtDDD\src\PtDDD.EntityFrameworkCore\obj\Debug\netcoreapp3.1\PtDDD.EntityFrameworkCore.dll
+D:\Respository\PtDDD\src\PtDDD.EntityFrameworkCore\obj\Debug\netcoreapp3.1\PtDDD.EntityFrameworkCore.pdb

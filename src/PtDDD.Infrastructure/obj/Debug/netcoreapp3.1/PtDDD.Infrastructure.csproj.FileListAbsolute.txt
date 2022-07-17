@@ -1,0 +1,16 @@
+D:\Respository\PtDDD\src\PtDDD.Infrastructure\bin\Debug\netcoreapp3.1\PtDDD.Infrastructure.deps.json
+D:\Respository\PtDDD\src\PtDDD.Infrastructure\bin\Debug\netcoreapp3.1\PtDDD.Infrastructure.dll
+D:\Respository\PtDDD\src\PtDDD.Infrastructure\bin\Debug\netcoreapp3.1\PtDDD.Infrastructure.pdb
+D:\Respository\PtDDD\src\PtDDD.Infrastructure\bin\Debug\netcoreapp3.1\PtDDD.Domain.dll
+D:\Respository\PtDDD\src\PtDDD.Infrastructure\bin\Debug\netcoreapp3.1\PtDDD.Domain.pdb
+D:\Respository\PtDDD\src\PtDDD.Infrastructure\obj\Debug\netcoreapp3.1\PtDDD.Infrastructure.csproj.AssemblyReference.cache
+D:\Respository\PtDDD\src\PtDDD.Infrastructure\obj\Debug\netcoreapp3.1\PtDDD.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Respository\PtDDD\src\PtDDD.Infrastructure\obj\Debug\netcoreapp3.1\PtDDD.Infrastructure.AssemblyInfoInputs.cache
+D:\Respository\PtDDD\src\PtDDD.Infrastructure\obj\Debug\netcoreapp3.1\PtDDD.Infrastructure.AssemblyInfo.cs
+D:\Respository\PtDDD\src\PtDDD.Infrastructure\obj\Debug\netcoreapp3.1\PtDDD.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Respository\PtDDD\src\PtDDD.Infrastructure\obj\Debug\netcoreapp3.1\PtDDD.Infrastructure.csproj.CopyComplete
+D:\Respository\PtDDD\src\PtDDD.Infrastructure\obj\Debug\netcoreapp3.1\PtDDD.Infrastructure.dll
+D:\Respository\PtDDD\src\PtDDD.Infrastructure\obj\Debug\netcoreapp3.1\PtDDD.Infrastructure.pdb
+D:\Respository\PtDDD\src\PtDDD.Infrastructure\bin\Debug\netcoreapp3.1\PtDDD.Infrastructure.runtimeconfig.json
+D:\Respository\PtDDD\src\PtDDD.Infrastructure\bin\Debug\netcoreapp3.1\PtDDD.Infrastructure.runtimeconfig.dev.json
+D:\Respository\PtDDD\src\PtDDD.Infrastructure\obj\Debug\netcoreapp3.1\PtDDD.Infrastructure.genruntimeconfig.cache
