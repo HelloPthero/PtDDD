@@ -68,3 +68,5 @@ D:\Respository\PtDDD\src\PtDDD.Web.MVC\bin\Debug\netcoreapp3.1\PtDDD.Domain.dll
 D:\Respository\PtDDD\src\PtDDD.Web.MVC\bin\Debug\netcoreapp3.1\PtDDD.Domain.pdb
 D:\Respository\PtDDD\src\PtDDD.Web.MVC\bin\Debug\netcoreapp3.1\PtDDD.Infrastructure.dll
 D:\Respository\PtDDD\src\PtDDD.Web.MVC\bin\Debug\netcoreapp3.1\PtDDD.Infrastructure.pdb
+D:\Respository\PtDDD\src\PtDDD.Web.MVC\bin\Debug\netcoreapp3.1\PtDDD.Application.dll
+D:\Respository\PtDDD\src\PtDDD.Web.MVC\bin\Debug\netcoreapp3.1\PtDDD.Application.pdb

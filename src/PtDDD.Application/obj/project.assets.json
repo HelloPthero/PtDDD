@@ -473,6 +473,37 @@
             "rid": "win"
           }
         }
+      },
+      "PtDDD.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.17",
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.17",
+          "MySql.EntityFrameworkCore": "5.0.13"
+        },
+        "compile": {
+          "bin/placeholder/PtDDD.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PtDDD.Domain.dll": {}
+        }
+      },
+      "PtDDD.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.17",
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.17",
+          "MySql.EntityFrameworkCore": "5.0.13",
+          "PtDDD.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PtDDD.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PtDDD.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -1450,13 +1481,24 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "PtDDD.Domain/1.0.0": {
+      "type": "project",
+      "path": "../PtDDD.Core/PtDDD.Domain.csproj",
+      "msbuildProject": "../PtDDD.Core/PtDDD.Domain.csproj"
+    },
+    "PtDDD.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../PtDDD.Infrastructure/PtDDD.Infrastructure.csproj",
+      "msbuildProject": "../PtDDD.Infrastructure/PtDDD.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.EntityFrameworkCore >= 5.0.17",
       "Microsoft.EntityFrameworkCore.Relational >= 5.0.17",
-      "MySql.EntityFrameworkCore >= 5.0.13"
+      "MySql.EntityFrameworkCore >= 5.0.13",
+      "PtDDD.Infrastructure >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1495,7 +1537,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Respository\\PtDDD\\src\\PtDDD.Infrastructure\\PtDDD.Infrastructure.csproj": {
+              "projectPath": "D:\\Respository\\PtDDD\\src\\PtDDD.Infrastructure\\PtDDD.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

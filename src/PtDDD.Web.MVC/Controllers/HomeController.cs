@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using PtDDD.Application.Dto;
+using PtDDD.Application.ISerivce;
 using PtDDD.Domain.IRepositories;
 using PtDDD.Web.MVC.Models;
 using System;
@@ -14,17 +16,23 @@ namespace PtDDD.Web.MVC.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
-        private readonly IUserRepository _userRepository; 
+        private readonly IUserService UserService;  
 
-        public HomeController(ILogger<HomeController> logger, IUserRepository userRepository)
+        public HomeController(ILogger<HomeController> logger, IUserService userService) 
         {
             _logger = logger;
-            _userRepository = userRepository;
+            UserService = userService;
         }
 
         public IActionResult Index()
         {
-            var user = _userRepository.Find(1);
+            var input = new UserDto
+            {
+                Name = "Pthero",
+                Password = "123"
+            };
+            var users = UserService.GetUsers();
+            var result = UserService.ValidUser(input);
             return View();
         }
 

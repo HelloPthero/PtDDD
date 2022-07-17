@@ -1,8 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using PtDDD.Domain.Entities;
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
+using System.Collections;
 
 namespace PtDDD.Domain.IRepositories
 {
@@ -11,7 +15,7 @@ namespace PtDDD.Domain.IRepositories
 
         private DBContext db;
 
-        public RepositoryBase(DBContext db) 
+        public RepositoryBase(DBContext db)
         {
             this.db = db;
         }
@@ -37,6 +41,11 @@ namespace PtDDD.Domain.IRepositories
             return db.Set<TEntity>().Find(id);
         }
 
+        public TEntity Find(Expression<Func<TEntity, bool>> predicate)
+        {
+            return db.Set<TEntity>().Where(predicate).First();
+        }
+
         public void Insert(TEntity entity)
         {
             db.Set<TEntity>().Add(entity);
@@ -46,5 +55,22 @@ namespace PtDDD.Domain.IRepositories
         {
             db.Set<TEntity>().Update(entity);
         }
+
+        public IQueryable<TEntity> Where(Expression<Func<TEntity, bool>> predicate)
+        {
+            return db.Set<TEntity>().Where(predicate);
+        }
+
+        public IQueryable<TEntity> ALL()
+        {
+            return db.Set<TEntity>();
+        }
+
+        public IQueryable<TEntity> ALL(Expression<Func<TEntity, bool>> predicate)
+        {
+            return db.Set<TEntity>().Where(predicate);
+        }
+
+
     }
 }

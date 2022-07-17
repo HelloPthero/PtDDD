@@ -12,6 +12,6 @@ namespace PtDDD.Domain
             : base(options) 
         {
         }
-        public virtual DbSet<User> Users { get; set; }
+        public virtual DbSet<UserEntity> Users { get; set; }
     }
 }

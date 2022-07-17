@@ -4,6 +4,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using PtDDD.Application.ISerivce;
+using PtDDD.Application.Service;
 using PtDDD.Domain;
 using PtDDD.Domain.IRepositories;
 using PtDDD.Infrastructure.Respository;
@@ -23,6 +25,7 @@ namespace PtDDD.Web.MVC
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddTransient<IUserRepository, UserRepository>();
+            services.AddTransient<IUserService, UserService>();
             services.AddDbContext<DBContext>(options =>
             {
                 options.UseMySQL(Configuration.GetConnectionString("Default"));

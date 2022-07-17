@@ -8,3 +8,8 @@ D:\Respository\PtDDD\src\PtDDD.Application\obj\Debug\netcoreapp3.1\PtDDD.Applica
 D:\Respository\PtDDD\src\PtDDD.Application\obj\Debug\netcoreapp3.1\PtDDD.Application.csproj.CoreCompileInputs.cache
 D:\Respository\PtDDD\src\PtDDD.Application\obj\Debug\netcoreapp3.1\PtDDD.Application.dll
 D:\Respository\PtDDD\src\PtDDD.Application\obj\Debug\netcoreapp3.1\PtDDD.Application.pdb
+D:\Respository\PtDDD\src\PtDDD.Application\bin\Debug\netcoreapp3.1\PtDDD.Domain.dll
+D:\Respository\PtDDD\src\PtDDD.Application\bin\Debug\netcoreapp3.1\PtDDD.Infrastructure.dll
+D:\Respository\PtDDD\src\PtDDD.Application\bin\Debug\netcoreapp3.1\PtDDD.Infrastructure.pdb
+D:\Respository\PtDDD\src\PtDDD.Application\bin\Debug\netcoreapp3.1\PtDDD.Domain.pdb
+D:\Respository\PtDDD\src\PtDDD.Application\obj\Debug\netcoreapp3.1\PtDDD.Application.csproj.CopyComplete

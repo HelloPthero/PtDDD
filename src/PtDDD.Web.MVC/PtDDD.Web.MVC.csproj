@@ -14,6 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\PtDDD.Application\PtDDD.Application.csproj" />
     <ProjectReference Include="..\PtDDD.Core\PtDDD.Domain.csproj" />
     <ProjectReference Include="..\PtDDD.Infrastructure\PtDDD.Infrastructure.csproj" />
   </ItemGroup>

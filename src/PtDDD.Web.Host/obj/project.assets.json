@@ -1454,7 +1454,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Microsoft.EntityFrameworkCore >= 5.0.17",
       "Microsoft.EntityFrameworkCore.Relational >= 5.0.17",
       "MySql.EntityFrameworkCore >= 5.0.13"
     ]
@@ -1508,10 +1507,6 @@
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": {
-            "target": "Package",
-            "version": "[5.0.17, )"
-          },
           "Microsoft.EntityFrameworkCore.Relational": {
             "target": "Package",
             "version": "[5.0.17, )"

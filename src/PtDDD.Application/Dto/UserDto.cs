@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace PtDDD.Domain.Entities
+namespace PtDDD.Application.Dto
 {
-    public class User : Entity<long>
+    public class UserDto
     {
+        public long? Id { get; set; }
         public string Name { get; set; }
 
         public string Email { get; set; }
